@@ -1,0 +1,23 @@
+{
+    "name": "evcil_hayvan_güncelleeme",
+    "photoUrls": [
+        "fotoURL1",
+        "fotoURL2"
+    ],
+    "id": 8979789078978969,
+    "category": {
+        "id": 95616787,
+        "name": "Rambo"
+    },
+    "tags": [
+        {
+            "id": 81095576,
+            "name": "Panda"
+        },
+        {
+            "id": -79022802,
+            "name": "Doggie"
+        }
+    ],
+    "status": "pending"
+}

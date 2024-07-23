@@ -1,0 +1,16 @@
+{
+  "name": "petstore_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.3.1",
+    "cypress-plugin-api": "^2.11.1",
+    "newman": "^5.3.2",
+    "newman-reporter-html": "^1.0.5"
+  },
+  "scripts": {
+    "test_cypress": "cypress run",
+    "test_postman_collection": "newman run Swagger-Petstore.postman_collection.json --env-var \"BASE_URL=https://petstore.swagger.io/v2\" --verbose -r html"
+  }
+}
